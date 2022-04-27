@@ -3,8 +3,39 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
+}
+
+.App-navbar {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 50px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+li {
+  margin: 10px;
+}
+
+button {
+
+  padding: 10px;
+  color: #282c34;
+  background-color: white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+.Branding {
+  display: flex;
+  align-items: center;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,13 +46,15 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 12vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   font-size: calc(10px + 2vmin);
   color: white;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .App-link {

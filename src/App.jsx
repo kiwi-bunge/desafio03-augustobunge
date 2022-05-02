@@ -1,6 +1,8 @@
 import logo from './pelotaMundial.png'
 import './App.css';
 import NavBar from './components/NavBar';
+import Fixtures from './components/Fixtures/Fixtures';
+
 
 function App() {
 
@@ -13,7 +15,11 @@ function App() {
         </div>
         <NavBar />
       </header>
+      <Fixtures />
     </div>
+
+    
+
   );
 }
 

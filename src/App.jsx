@@ -3,7 +3,7 @@ import ballImage2 from './mechta.png'
 import ballImage3 from './brazuca.png'
 import './App.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/Products/Balls/Balls';
+import ItemListContainer from './components/Products/Balls/ItemListContainer';
 
 
 function App() {

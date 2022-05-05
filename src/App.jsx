@@ -1,26 +1,26 @@
 import logo from './pelotaMundial.png'
+import ballImage2 from './mechta.png'
+import ballImage3 from './brazuca.png'
 import './App.css';
 import NavBar from './components/NavBar';
-import Fixtures from './components/Fixtures/Fixtures';
+import ItemListContainer from './components/Products/Balls/Balls';
 
 
 function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
-        <div className="Branding">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1>Prode Mundial 2022</h1>
-        </div>
-        <NavBar />
-      </header>
-      <Fixtures />
+
+        <NavBar className="App-header" />
+
+      <div className="productsCards">
+        <ItemListContainer title="Al-Rihla" description="2022 World Cup Official Match Ball" image= { logo } price="$ 98.49" />
+        <ItemListContainer title="Adidas Mechta" description="2018 World Cup Official Match Ball" image= { ballImage2 } price="$ 68.49" />
+        <ItemListContainer title="Brazuca Final Rio" description="2014 World Cup Official Match Ball" image= { ballImage3 } price="$ 38.49" />
+      </div>
     </div>
-
-    
-
   );
+
 }
 
 export default App;

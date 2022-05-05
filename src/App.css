@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 .App {
   text-align: center;
 }
@@ -9,10 +13,15 @@
 
 .App-navbar {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
-  padding-left: 50px;
   align-items: center;
+  background-color: #282c34;
+  min-height: 12vh;
+  justify-content: space-evenly;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 h1 {
@@ -33,10 +42,16 @@ button {
   font-weight: 700;
 }
 
+.Cart {
+  height: 10vmin;
+  pointer-events: none;
+}
+
 .Branding {
   display: flex;
   align-items: center;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

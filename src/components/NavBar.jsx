@@ -1,11 +1,18 @@
+import logo from '../../src/pelotaMundial.png'
+import Button from './Button';
+import CartWidget from './CartWidget';
 
 function NavBar() {
 
+
     return (
         <nav className="App-navbar">
-            <li><button>Fixture</button></li>
-            <li><button>Resultados</button></li>
-            <li><button>Premios</button></li>
+            <img src= { logo } className="App-logo" alt="logo" />
+            <h1>2022 World Cup Official Shop</h1>
+            <Button text="Match Balls" />
+            <Button text="Jerseys" />
+            <Button text="Shorts" /> 
+            <CartWidget />          
         </nav>
     )
 }

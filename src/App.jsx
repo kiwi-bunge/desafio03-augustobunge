@@ -6,12 +6,15 @@ import NavBar from './components/NavBar';
 import ItemListContainer from './components/Products/Balls/ItemListContainer';
 
 
+
+
 function App() {
 
   return (
     <div className="App">
 
-        <NavBar className="App-header" />
+
+      <NavBar className="App-header" />      
 
       <div className="productsCards">
         <ItemListContainer title="Al-Rihla" description="2022 World Cup Official Match Ball" image= { logo } price="$ 98.49" />

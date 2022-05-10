@@ -42,6 +42,36 @@ button {
   font-weight: 700;
 }
 
+.counter {
+  display: flex;
+
+  border-radius: 5px;
+  padding: 0px;
+}
+
+.counter button {
+  border: none;
+  font-size: 30px;
+  padding: 5px 25px;
+  background-color: #282c34;
+  color: white;
+}
+
+.counterValue {
+  align-items: center;
+  font-size: 20px;
+  margin: 5px 20px;
+}
+
+.addToCartButton {
+  margin: 10px;
+}
+
+.dateDetails {
+  font-size: 15px;
+  padding: 10px 25px;
+}
+
 .Cart {
   height: 10vmin;
   pointer-events: none;

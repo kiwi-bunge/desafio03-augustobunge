@@ -4,7 +4,6 @@ import CartWidget from './CartWidget';
 
 function NavBar() {
 
-
     return (
         <nav className="App-navbar">
             <img src= { logo } className="App-logo" alt="logo" />

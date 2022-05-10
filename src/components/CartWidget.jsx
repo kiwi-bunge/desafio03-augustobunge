@@ -6,6 +6,7 @@ function CartWidget() {
     return (
         <>
             <a href="test"><img src={ cart } alt="cart-widget" className='Cart'/></a>
+            
         </>
     )
 }

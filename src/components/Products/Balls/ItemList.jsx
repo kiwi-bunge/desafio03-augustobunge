@@ -41,7 +41,7 @@ const ItemList = () => {
     <div className='productList'>
 
         {
-            <div>
+            <div className='productList'>
                 { loading ?
                 
                     <h2>Loading products...</h2>

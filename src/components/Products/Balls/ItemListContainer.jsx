@@ -1,21 +1,13 @@
 import '../../../../src/Products.css';
-import ItemCount from '../../CounterComponent/Counter';
+import ItemList from './ItemList';
 
-
-const ItemListContainer = ( { title, description, image, price } ) => {
+const ItemListContainer = () => {
 
   return (
-
-    <div className="ballsCard hidden" id="balls">
-        <h1> { title } </h1>
-        <h4> { description } </h4>
-        <img src= { image } alt="world-cup-match-ball"/>
-        <p> { price } </p>
-        <ItemCount stock="10" initial={1} />
-    </div>
     
+    <ItemList />
 
-  )
-}
+)}
+
 
 export default ItemListContainer

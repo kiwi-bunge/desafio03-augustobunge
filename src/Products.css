@@ -5,6 +5,10 @@
     justify-content: center;
     
   }
+
+.productList {
+    display: flex;
+}
   
 .ballsCard {
     display: flex;
